@@ -8,3 +8,10 @@ There, run the following command :
 php -q server.php
 
 Keep the window open until you finish working on your project.
+
+
+Developers:
+
+Anastasios Gymnopoulos (tasosgim95@windowslive.com)
+Ioan Damian Anchidin (damisv@gmail.com)
+Margarita Bogdanou (margbogd@gmail.com)
