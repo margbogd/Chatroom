@@ -1,0 +1,166 @@
+body{
+	background-image: url("th.jpg");
+	margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 15px;
+	font-family: Tahoma;
+}
+
+.active {
+    background-color: #0099ff;
+}
+
+li {
+	float: right;
+    border-right: 1px solid #bbb;
+}
+
+textarea {
+	resize: none;
+}
+
+.frm-control {
+	position: fixed;
+	left: 30px;
+	width: 400px;
+	height: 350px;
+	top: 150px;
+	border: none;
+	border-radius: 4px;
+}
+
+input[type=text]:focus, textarea:focus {
+	box-shadow: 0 0 5px rgb(0, 138, 230);
+	border: 1px solid rgb(0, 138, 230);
+}
+
+.chat-box, .msg-box {
+	background-color: white;
+	width: 250px;
+	position: fixed;
+	bottom: 0px;
+	right: 20px;
+	border-radius: 5px 5px 0px 0px;
+	cursor: pointer;
+}
+
+.chat-header, .msg-header {
+	background-color: red;
+	padding: 10px;
+	color: white;
+	font-family: Tahoma;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.chat-body {
+	font-family: Tahoma;
+	height: 500px;
+	overflow-y:scroll;
+}
+
+.user {
+	padding: 20px 25px;
+	position: relative;
+}
+
+.user:hover {
+	background: #f8f8f8;
+}
+.user:before {
+	content: "";
+	position: absolute;
+	background: #00b33c;
+	width: 8px;
+	height: 8px;
+	left: 8px;
+	top: 26px;
+	border-radius: 5px;
+}
+
+.msg-box {
+	height: 400px;	
+}
+
+.msg-header {
+	background-color:  #cc99ff;
+}
+
+.close {
+	float: right;
+}
+
+.msg-input {
+	width: 100%;
+	height: 20%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	bottom: 0px;
+	position: absolute;
+	border: transparent;
+	border-top: 1px solid #d9d9d9;
+	font-size: 12px;
+	padding: 3px;
+}
+
+.msg-wrap {
+	font-size: 12px;
+	overflow-y: auto;
+}
+
+.msg-a {
+	position:relative;
+	background:#FDE4CE;
+	padding:10px;
+	min-height:10px;
+	margin-bottom:5px;
+	margin-right: 15px;
+	border-radius:5px;
+}
+
+.msg-a:before {
+	content:"";
+	position:absolute;
+	width:0px;
+	height:0px;
+	border: 10px solid;
+	border-color: transparent #FDE4CE transparent transparent;
+	left:-20px;
+	top:7px;
+}
+
+.msg-b {
+	background:#EEF2E7;
+	padding:10px;
+	min-height:15px;
+	margin-bottom:5px;
+	position:relative;
+	margin-left:10px;
+	border-radius:5px;
+}
+
+.msg-b:before {
+	content:"";
+	position:absolute;
+	width:0px;
+	height:0px;
+	border: 10px solid;
+	border-color: transparent transparent transparent #EEF2E7;
+	right:-20px;
+	top:7px;
+}

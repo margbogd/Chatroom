@@ -1,0 +1,191 @@
+body{
+	background-image: url("th.jpg");
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 17px;
+	font-family: Tahoma;
+}
+
+.active {
+    background-color: #0099ff;
+}
+li {
+	float: left;
+    border-right: 1px solid #bbb;
+}
+
+.container {
+	padding: 16px;
+}
+
+.margin-top {
+	margin-top: 16px!important;
+}
+
+.half {
+	width: 25%;
+	float: left;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+div {
+	display: block;
+}
+
+.card-4, hover-shadow:hover {
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+}
+
+.form-container {
+	padding: 14px;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+form {
+	display: block;
+	margin-top: 0px;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1px;
+	-webkit-margin-after: 1px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.input {
+	padding: 8px;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #808080;
+}
+
+button, input {
+	overflow: visible;
+}
+
+button, input, select, textarea {
+	font: inherit;
+	margin: 0;
+}
+
+.input:not(:valid)~.validate {
+	color: #b30000;
+} 
+
+h4 {
+	font-family: Tahoma;
+	color: #333;
+	font-style: italic;
+	text-decoration: underline;
+	letter-spacing: 2px;
+}
+label {
+	cursor: default;
+	font-family: Tahoma;
+	color: #0033cc;
+}
+
+input {
+	border-radius: 20px;
+}
+
+input[type=checkbox].check, input[type=radio].radio {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 6px;
+}
+
+[type=checkbox], [type=radio] {
+	padding: 0;
+}
+
+input[type=checkbox].check:checked+.validate, input[type=radio].radio:checked+.validate {
+	color: #990033;
+}
+
+.teal, .hover-teal:hover {
+	color: #fff!important;
+	background-color: #009688; 
+	font-family: Tahoma;
+	font-size: 18px;
+}
+
+.section {
+	margin-top: 16px!important;
+	margin-bottom: 16px!important;
+}
+
+.ripple {
+	transition: opacity 0s;
+}
+
+.btn, .btn-floating, .btn-floating-large, .closenav, .opennav, .btn-block {
+	user-select: none;
+}
+
+.btn, .btn:hover {
+	border-radius: 12px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn, .btn-block {
+	border: none;
+	display: inline-block;
+	outline: 0;
+	padding: 6px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none!important;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+	-webkit-appearance: button;
+}
+
+button, select {
+	text-transform: none;
+}
+
+.img-center {
+	text-align: center!important;
+}
+
+.circle {
+	border-radius: 50%!important;
+}
+
+img {
+	margin-bottom: -5px;
+	border-style: none;
+}
+
+i {
+	margin-left: -8px;
+	margin-top: -8px;
+}

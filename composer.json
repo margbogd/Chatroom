@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-0": {
+      "MyApp": "src"
+    }
+  },
+    "require": {
+	"fzaninotto/faker": "v1.6.0",
+      "cboden/Ratchet": "0.3.*"
+    }
+}
