@@ -1,11 +1,8 @@
 # Chatroom
 
-_________________________________________
 ## Project
 
 ### Websockets Chat PHP Ratchet
-
-_________________________________________
 
 
 * Open XAMPP, start Apache and run Shell from the right sidebar.
